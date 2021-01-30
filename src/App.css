@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-brand {
+  padding: 0% 1%;
+}
+
+.Sprzet {
+  padding:  3% 5%;
+  text-align: center;
+}
+
+.center {
+  margin: 10% 30%;
+}
+
+.badge.badge-light {
+  border-style: none;
+  margin-right: 5px;
+}
+
+.badge.badge-light:hover {
+	background-color: rgba(14, 224, 77, 0.6);
+
+}
+
+.badge.badge-danger {
+  border-style: none;
+}
+
+.badge.badge-danger:hover {
+	background-color: rgba(14, 0, 1, 0.6);
+}
+
+.szukaj {
+  margin: 10px 0px;
+  width: 250px;
+  height: 28px;
+  position: center;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 8px 8px; 
+  background-repeat: no-repeat;
+  transition: width 0.4s ease-in-out;
+  text-align: center;
+}
+
+.szukaj:focus {
+  width: 100%;
+}
+
+.intext {
+  margin: 0px 1px;
+  width: 200px;
+  height: 38px;
+  position: center;
+  box-sizing: border-box;
+  border: 2px solid #2fa4e7;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 8px 8px; 
+  background-repeat: no-repeat;
+  transition: width 0.4s ease-in-out;
+  text-align: center;
+}
+
+.intext1 {
+  margin: 0px 1px;
+  width: 200px;
+  height: 38px;
+  position: center;
+  box-sizing: border-box;
+  border: 2px solid #2fa4e7;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 8px 8px; 
+  background-repeat: no-repeat;
+  transition: width 0.4s ease-in-out;
+  text-align: center;
+}
+
+input.btn.btn-info {
+  margin-top: 8px;
+  margin-bottom: 14px;
+  width: 200px;
+  height: 39px !important;
+  border-radius: 4px;
+}
+
+.hero-image {
+  background-image: url("./components/Magazyn.jpg");
+  background-size: cover;
+  background-color: #cccccc;
+  height: 707px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-filter: blur(8px);
+  filter: blur(7px);
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.intro-text {
+  font-size: 80px;
+  text-shadow: 2px 2px #000000;
+}
+
+.intro-text1 {
+  font-size: 30px;
+  text-shadow: 2px 1px #000000;
+}
